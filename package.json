@@ -1,0 +1,25 @@
+{
+  "name": "appsync-twitter",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Backend for AppSync Twitter app",
+  "main": "index.js",
+  "scripts": {
+    "sls": "sls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harlemtraveler/AppSync-Twitter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harlemtraveler/AppSync-Twitter/issues"
+  },
+  "homepage": "https://github.com/harlemtraveler/AppSync-Twitter#readme",
+  "devDependencies": {
+    "serverless": "^3.11.0",
+    "serverless-appsync-plugin": "^1.13.0"
+  }
+}
