@@ -19,7 +19,12 @@
   },
   "homepage": "https://github.com/harlemtraveler/AppSync-Twitter#readme",
   "devDependencies": {
+    "aws-sdk": "^2.1110.0",
     "serverless": "^3.11.0",
-    "serverless-appsync-plugin": "^1.13.0"
+    "serverless-appsync-plugin": "^1.13.0",
+    "serverless-iam-roles-per-function": "^3.2.0"
+  },
+  "dependencies": {
+    "chance": "^1.1.8"
   }
 }
