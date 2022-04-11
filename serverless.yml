@@ -96,7 +96,11 @@ resources:
         PreventUserExistenceErrors: ENABLED
 
   Outputs:
-    AwsRRegion:
+    AwsRegion:
       Value: ${self:custom.region}
+
     CognitoUserPoolId:
       Value: !Ref CognitoUserPool
+
+    WebCognitoUserPoolClientId:
+      Value: !Ref WebUserPoolClient
